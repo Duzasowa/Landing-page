@@ -1,0 +1,35 @@
+ .clock {
+   position: relative;
+   margin: a;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background: darkmagenta; */
+   height: 300px;
+   width: 800px;
+   color: white;
+   text-shadow: 1px 1px 7px;
+   border-radius: 15px;
+   justify-content: space-around;
+
+ }
+
+ .clock section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 1rem;
+ }
+
+ .clock_text {
+   font-size: 30px;
+ }
+
+ .clock_container {
+   height: 200px;
+ }
+
+ .clock_value {
+   font-size: 90px;
+ }
