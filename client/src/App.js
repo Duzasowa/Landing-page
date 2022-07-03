@@ -5,6 +5,8 @@ import SearchIcon from '@mui/icons-material/Search';
 import './style/app.css';
 import { SearchIconWrapper, Search, StyledInputBase } from "./style/styleComponents";
 import Clock from "./components/clock";
+import Sale from "./components/sale";
+import Footer from "./components/footer";
 
 const App = () => {
   const [timerDays, setTimerDays] = useState();
@@ -40,9 +42,9 @@ const App = () => {
     });
   };
 
-  useEffect(() => {
-    startTimer();
-  });
+  // useEffect(() => {
+  //   startTimer();
+  // });
 
   return (
     <div class="app">
@@ -65,7 +67,7 @@ const App = () => {
                   </SearchIconWrapper>
                   <StyledInputBase
                     style={{marginTop: 5}}
-                    placeholder="Search…"
+                    placeholder="Twój adres e-mail"
                     inputProps={{ 'aria-label': 'search' }}
                   />
                 </Search>
@@ -80,6 +82,9 @@ const App = () => {
           </div>
         </div>
       </div>
+      {/* Sale container */}
+      <Sale />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,168 @@
+.sale {
+  width: 100%;
+  height: 1500px;
+  background-color: rgb(248, 248, 248);
+}
+
+.sale_container {
+  width: 100%;
+  height: 800px;
+}
+
+.sale_text {
+  width: 430px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  -webkit-font-smoothing: antialiased;
+  font: inherit;
+  font-family: var(--wb-font-title);
+  /* font-style: normal; */
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: var(--wb-grey-20);
+  font-size: 48px;
+}
+
+.sale_items-container {
+  width: 100%;
+  height: 1000px;
+  /* background-color: blue; */
+}
+
+.sale_items-container-up {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sale_items-container-place {
+  width: 358px;
+  height: 530px;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgb(196, 195, 195);
+  border: 1px solid rgb(139, 139, 139);
+}
+
+.sale_items-img {
+  width: 356px;
+  height: 50%;
+  /* background-color: rgb(7, 160, 160); */
+  background-image: url(../img/sale_1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img2 {
+  background-image: url(../img/sale_2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img3 {
+  background-image: url(../img/sale_3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sale_info {
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 28px;
+}
+
+.sale_info-container {
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  box-shadow: inset 0 0 0 2px #e83b3b;
+  border-radius: 5px;
+  margin: 0 0 0.9375rem;
+  overflow: hidden;
+}
+
+.sale_discount {
+  width: 40%;
+  font-size: 13px;
+  text-align: center;
+}
+
+.sale_featured {
+  width: 60%;
+  height: 28px;
+  text-align: center;
+  padding-top: 6px;
+  color: white;
+  background-color: red;
+}
+
+.sale_container-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sale_up-text {
+  width: 300px;
+  font-family: "MBCorpo Text", DaimlerCS-Regular, DaimlerCSArab-Regular, sans-serif;
+  font-size: 19px;
+  font-weight: 800;
+  margin-top: 33px;
+}
+
+.sale_down-down {
+  width: 300px;
+  font-size: 17px;
+  margin-top: 8px;
+}
+
+.sale_buttom-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 39px;
+}
+
+.sale_buttom {
+  width: 300px;
+  padding: 11px 23px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #bbb;
+
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: background .1s linear, color .1s linear;
+}
+
+.sale_buttom:hover {
+  background-color: rgb(214, 214, 214);
+  color: #333;
+}
+
+/* container-down */
+
+.sale_items-container-down {
+  margin-top: 150px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+}

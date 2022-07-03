@@ -1,0 +1,16 @@
+.footer {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fcdb05;
+}
+
+.footer_text {
+  font-family: "MBCorpo Text", DaimlerCS-Regular, DaimlerCSArab-Regular, sans-serif;
+  font-size: 1.325rem;
+  color: #fff;
+  margin: 0;
+  font-weight: 700;
+}
